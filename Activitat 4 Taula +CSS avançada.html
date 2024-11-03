@@ -1,0 +1,140 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horari</title>
+<style>
+  body{
+    font-family: Verdana, sans-serif;
+  }
+  h1 {
+      text-align: center;
+      color: #2a1cf1;
+  }
+
+  .line-container {
+    height: 20px;
+    font-size: 25px;
+    font-weight: normal;
+    color:#f1d91c ;
+    text-align: center;
+    padding: 10px;
+    
+  }
+  table {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th {
+
+    background-color: rgb(0, 255, 85);
+    font-size: 25px;
+    padding: 30px;
+    border: 1px solid black;
+
+  }
+  td {
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .descans ´{
+    font-size: 20px;
+    padding: 15px;
+    background-color: #FFFFCC;
+
+  }
+  .hores {
+
+    font-size: 20px;
+    padding: 10px;
+    width: 180px;
+  }
+  .clase1 {
+    background-color: #ffb6c1;
+  }
+  .clase2{
+    background-color: #20b2aa;
+  }
+  .clase3 {
+    background-color: #ff000f;
+  }
+  .clase4 {
+    background-color: #faebd7;
+  }
+  .clase5 {
+    background-color: #6495ed;
+  }
+  .clase6 {
+    background-color: #ff7f50;
+  }
+  .clase7 {
+    background-color: #fcd110;
+  }
+  .clase8 {
+    background-color: #f1d91c;
+  }
+
+
+ </style>
+</head>
+<body>
+    <h1>Horari</h1>
+    <table>
+
+        <caption class="line-container">Curs 24 - 25</caption>
+        
+        <tr>
+          <th></th>
+          <th>dilluns</th> 
+          <th>dimarts</th>
+          <th>dimecres</th>
+          <th>dijous</th>
+          <th>divendres</th>
+        </tr>
+        <tr>
+          <td class="hores">8:00 - 9:00</td>
+          <td rowspan="2" class="clase1">LMSGI</td>
+          <td rowspan="2" class="clase4">BD</td>
+          <td rowspan="2" class="clase2">P+ED</td>
+          <td rowspan="2" class="clase8">SI</td>
+          <td rowspan="2" class="clase4">BD</td>
+        </tr>
+        <tr>
+          <td class="hores">9:00 - 10:00</td>
+        </tr>
+        <tr>
+          <td class="hores">10:00 - 11:00</td>
+          <td class="clase2">P+ED</td>
+          <td class="clase5">TUT</td>
+          <td class="clase7">AN</td>
+          <td class="clase2">P+ED</td>
+          <td class="clase2">P+ED</td>
+        </tr>
+        <tr>
+          <td colspan="6" class="descans">Descans</td>
+        </tr>
+        <tr>
+            <td class="hores">11:30 - 12:30</td>
+            <td class="clase2">P+ED</td>
+            <td rowspan="2" class="clase6">DIW</td>
+            <td rowspan="2" class="clase3">IPOI</td>
+            <td rowspan="2" class="clase2">P+ED</td>
+            <td class="clase2">P+ED</td>
+          </tr>
+          <tr>
+            <td class="hores">12:30 - 13:30</td>
+            <td class="clase3">IPOI</td>
+            <td class="clase8">SI</td>
+          </tr>
+      </table>
+    </table>
+    
+</body>
+</html>
